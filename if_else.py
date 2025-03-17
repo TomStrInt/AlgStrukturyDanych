@@ -38,3 +38,5 @@ else:
    discount=0
 
 print('Payable amount = ',amount - discount)
+
+
