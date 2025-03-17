@@ -9,6 +9,4 @@ obj = width * height * depth
 powierzchnia = 2 *(width*height + height* depth + width* depth)
 
 
-# Example usage
-
 print(f"Surface Area:   {powierzchnia},\nVolume:   {obj}")
