@@ -66,3 +66,39 @@ for num in range(10, 20):
       else:                  
          print (num, "is a prime number")
          break
+
+print("\n")
+
+#while loop
+
+count=0
+while count<5:
+   count+=1
+   print ("Iteration no. {}".format(count))
+
+print ("End of while loop")
+
+print("\n")
+
+'''
+var = 1
+while var == 1 : # This constructs an infinite loop
+   num = int(input("Enter a number :"))
+   print ("You entered: ", num)
+print ("Good bye!")
+
+print("\n")
+'''
+
+count=0
+while count<8:
+   count+=1
+   print ("Iteration no. {}".format(count))
+else:
+   print ("While loop over. Now in else block")
+print ("End of while loop")
+
+
+flag = 0
+while (flag): print ("Given flag is really true!")
+print ("Good bye!")
